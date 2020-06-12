@@ -1,0 +1,107 @@
+<!-- Offcanvas Menu Begin -->
+<div class="offcanvas-menu-overlay" (click)="close()" [ngClass]="{active : condition}"></div>
+<div class="offcanvas-menu-wrapper" [ngClass]="{active : condition}">
+    <div class="offcanvas__widget">
+        <nav class="header__menu">
+            <ul>
+                <app-menu></app-menu>
+            </ul>
+        </nav>
+    </div>
+    <div class="offcanvas__logo">
+        <a href="./index.html"><img src="assets/img/logo.png" alt=""></a>
+    </div>
+    <div id="mobile-menu-wrap"></div>
+    <ul class="offcanvas__widget__add">
+        <li><i class="fa fa-clock-o"></i> Week day: 08:00 am to 18:00 pm</li>
+        <li><i class="fa fa-envelope-o"></i> Info.colorlib@gmail.com</li>
+    </ul>
+    <div class="offcanvas__phone__num">
+        <i class="fa fa-phone"></i>
+        <span>(+12) 345 678 910</span>
+    </div>
+    <div class="offcanvas__social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-google"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+</div>
+<!-- Offcanvas Menu End -->
+
+<!-- Header Section Begin -->
+<header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <ul class="header__top__widget">
+                        <li><i class="fa fa-clock-o"></i> Week day: 08:00 am to 18:00 pm</li>
+                        <li><i class="fa fa-envelope-o"></i> Info.colorlib@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5">
+                    <div class="header__top__right">
+                        <div class="header__top__phone">
+                            <i class="fa fa-phone"></i>
+                            <span>(+12) 345 678 910</span>
+                        </div>
+                        <div class="header__top__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="header__logo">
+                    <a routerLink="/"><img src="assets/img/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-10">
+                <div class="header__nav">
+                    <nav class="header__menu">
+                        <ul>
+                            <app-menu></app-menu>
+                        </ul>
+                    </nav>
+                    <div class="header__nav__widget">
+                        <div class="header__nav__widget__btn">
+                            <a href="#"><i class="fa fa-cart-plus"></i></a>
+                            <a href="#" class="search-switch"><i class="fa fa-search"></i></a>
+                        </div>
+                        <a routerLink="/car_operations" class="primary-btn">Add Car</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="canvas__open" (click)="openMenu()">
+            <span class="fa fa-bars"></span>
+        </div>
+    </div>
+</header>
+<!-- Header Section End -->
+
+<!-- Breadcrumb End -->
+<div class="breadcrumb-option set-bg" data-setbg="img/breadcrumb-bg.jpg" style="background-image:url('assets/img/breadcrumb-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>Car Listing</h2>
+                    <div class="breadcrumb__links">
+                        <!-- <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                        <span>About</span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Breadcrumb Begin -->

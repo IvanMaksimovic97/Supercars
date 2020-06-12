@@ -1,0 +1,90 @@
+[
+    {
+        "id":1,
+        "brand":"McLaren",
+        "model":"720S",
+        "year":2018,
+        "mileage":35000,
+        "powerkw":563,
+        "status":"Used",
+        "price":260000,
+        "imgname":"car-1.jpg"
+    },
+    {
+        "id":2,
+        "brand":"Ferrari",
+        "model":"458 Italia",
+        "year":2015,
+        "mileage":220000,
+        "powerkw":420,
+        "status":"Used",
+        "price":185000,
+        "imgname":"car-2.jpg"
+    },
+    {
+        "id":3,
+        "brand":"Ford",
+        "model":"Mustang GT",
+        "year":2018,
+        "mileage":177000,
+        "powerkw":343,
+        "status":"Used",
+        "price":80000,
+        "imgname":"car-3.jpg"
+    },
+    {
+        "id":4,
+        "brand":"BMW",
+        "model":"M4 GTS",
+        "year":2016,
+        "mileage":250000,
+        "powerkw":386,
+        "status":"Used",
+        "price":60000,
+        "imgname":"car-4.jpg"
+    },
+    {
+        "id":5,
+        "brand":"Jaguar",
+        "model":"F-Type SVR",
+        "year":2017,
+        "mileage":50000,
+        "powerkw":423,
+        "status":"Used",
+        "price":150000,
+        "imgname":"car-5.jpg"
+    },
+    {
+        "id":6,
+        "brand":"Lamborghini",
+        "model":"Huracán LP640-4 Performanté",
+        "year":2017,
+        "mileage":320000,
+        "powerkw":471,
+        "status":"Used",
+        "price":190000,
+        "imgname":"car-6.jpg"
+    },
+    {
+        "id":7,
+        "brand":"Audi",
+        "model":"TT RS",
+        "year":2014,
+        "mileage":286000,
+        "powerkw":294,
+        "status":"Used",
+        "price":45000,
+        "imgname":"car-7.jpg"
+    },
+    {
+        "id":8,
+        "brand":"BMW",
+        "model":"M2",
+        "year":2018,
+        "mileage":20000,
+        "powerkw":331,
+        "status":"New",
+        "price":90000,
+        "imgname":"car-8.jpg"
+    }
+]

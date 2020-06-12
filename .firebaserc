@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "supercars-26a6f": {
+      "hosting": {
+        "angular-app": [
+          "supercars-26a6f"
+        ]
+      }
+    }
+  }
+}
